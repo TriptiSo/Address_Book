@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Address Book</title>
+</head>
+
+<body>
+    <header>
+        <h1>Address Book</h1>
+    </header>
+
+    <body> 
+        <section id="contact-form">
+            <h2>Add Contact</h2>
+            <form>
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput" name="nameInput" placeholder="Enter name here..."><br>
+                <label for="mobileInput">Mobile:</label>
+                <input type="text" id="mobileInput" name="mobileInput" placeholder="Enter contact no. here..."><br>
+                <button type="button" id="addContactButton">Add Contact</button>
+            </form>
+        </section>
+
+        <section id="contact-display">
+            <h2 class="contacts">Contacts</h2>
+            <table>
+                <tr id="head">
+                    <thead>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                    </thead>
+                </tr>
+                <tbody id="data">
+                    <!-- Dynamic Entries -->
+                </tbody>
+            </table>
+            <div>
+                <label for="filterInput">Filter by:</label>
+                <input type="text" id="filterInput" placeholder="Type here to filter...">
+
+                <div>
+                    <button id="nameBtn" class="active">Name</button>
+                    <button id="contactBtn">Contact</button>
+                    <button id="allbtn">All Contacts</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Developed by Tripti Somani</p>
+        </footer>
+        <script src="scripty.js"></script>
+    </body>
+
+</html>

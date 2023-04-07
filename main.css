@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button[type="button"] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#head th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Filter styles */
+label[for="filterInput"] {
+    margin-right: 10px;
+}
+
+input#filterInput {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+div button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
